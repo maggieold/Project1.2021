@@ -1,0 +1,251 @@
+/* color vars */
+:root {
+	--main-color: #dbdbdb;
+	--dk-color: purple;
+	--md-color: rgb(255, 255, 255);
+	--lt-color: #dbdbdb;
+	--lt-lt-color: #dbdbdb;
+	--white: #eee;
+	--black: #222;
+	--grey: purple;
+	
+}
+
+div.a {
+	text-align: center;
+  }
+
+/* google font style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+h5,
+h6 {
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	padding-top: 0.3rem;
+}
+
+
+/* media query related styles */
+/* styles for extra-small (mobile) devices */
+h1 {
+	font-size: 2.6rem;
+	line-height: 2.7rem;
+	letter-spacing: -0.04rem;
+}
+
+
+header {
+	padding: 1rem 0.5rem 0.75rem;
+}
+
+section {
+	padding: 2rem 1rem 2.2rem;
+}
+
+footer {
+	padding: 2rem 1rem 4rem;
+}
+h3 {
+	text-align: center;
+}
+
+/* styles for small devices */
+@media (min-width: 576px) {
+	h1 {
+		font-size: 3.0rem;
+		line-height: 3.2rem;
+		letter-spacing: -0.09rem;
+	}
+
+	header {
+		padding: 4rem 4rem 3rem;
+	}
+
+	section {
+		padding: 7rem 4rem 8rem;
+	}
+
+	footer {
+		padding: 3rem 4rem 5rem;
+	}
+}
+
+/* styles for medium devices */
+@media (min-width: 768px) {
+	h1 {
+		font-size: 4.5rem;
+		line-height: 4.8rem;
+		letter-spacing: -0.11rem;
+	}
+
+	header {
+		padding: 6rem 7rem 5rem;
+	
+	}
+
+	section {
+		padding: 6rem 7rem 8rem;
+	}
+
+	footer {
+		padding: 3rem 7rem 5rem;
+	}
+}
+
+
+/* styles for large devices */
+@media (min-width: 992px) {}
+
+/* styles for extra-large devices */
+@media (min-width: 1200px) {}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+	.column {
+	  width: 100%;
+	}
+  }
+
+
+/* body margin used to offset height of navbar */
+body {
+	margin-top: 56px;
+}
+
+
+/* nav */
+.nav-pills .nav-link.active {
+	color: var(--w);
+	background-color: var(--dk-color);
+}
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+	background-color: purple;
+	color: white;
+  }
+
+img {
+	border-radius: 50%;
+	width: 170px;
+    height: 170px;
+	align-content: left;
+	align-items: left;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	float: center;
+	width: 20%;
+	padding: 2px;
+  }
+  
+.navbar-nav .nav-link {
+	padding-left: 4px;
+}
+
+
+
+/* colors */
+.dk-color {
+	background-color: var(--dk-color);
+
+}
+.grey {
+	background-color: var(--grey);
+	align-content: center;
+	height: 2px;
+	text-align: center;
+color: white;
+
+}
+
+.lt-color {
+	background-color: var(--md-color);
+text-align: center;
+}
+
+.xlt-color {
+	background-color: var(--lt-color);
+
+}
+
+.white-type {
+	color: var(--white);
+}
+.covers
+
+/* cards */
+.card {
+	padding: 1.5rem;
+	margin-bottom: 2rem;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 3;
+	background-color: var(--lt-lt-color);
+	text-align: center;
+}
+
+.card>img {
+	margin-bottom: 0.75rem;
+}
+
+.card-text {
+	font-size: 95%;
+	text-align: center;
+}
+
+/* footer */
+.dark-footer {
+	background-color: var(--dk-color);
+	color: var(--white);
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+	min-height: 300px;
+	
+}
+
+.dark-footer a {
+	color: var(--white);
+	text-decoration: underline;
+}
+
+.dark-footer a:hover {
+	color: var(--white);
+	text-decoration: underline;
+}
+
+.p {
+	text-align: center;
+}
